@@ -1,0 +1,9 @@
+{
+	"require": {
+		"guzzlehttp/guzzle": "*",
+		"blackfire/php-sdk": "^1.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^5.7"
+	}
+}
