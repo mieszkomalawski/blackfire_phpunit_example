@@ -65,7 +65,6 @@ class BasicTest extends \PHPUnit_Framework_TestCase
         });
     }
 
-    //@todo a jak mockować
 }
 
 class testedClass{
