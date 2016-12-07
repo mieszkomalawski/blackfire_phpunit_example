@@ -61,7 +61,7 @@ class BasicTest extends \PHPUnit_Framework_TestCase
         $config->assert('metrics.static.call.count == 1', 'static calls');
 
         $this->assertBlackfire($config, function () {
-            (new testedClass())->foo(2);
+            (new testedClass())->foo(12);
         });
     }
 
